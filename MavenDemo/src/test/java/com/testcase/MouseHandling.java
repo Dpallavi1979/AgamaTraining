@@ -19,16 +19,18 @@ public class MouseHandling {
 				
 				//Open Organgehrm website
 				driver.get("https://opensource-demo.orangehrmlive.com/");
-
+				
+				//Enter Credentials
 				driver.findElement(By.xpath("//input[contains(@name,'Username')]")).sendKeys("Admin");
 				driver.findElement(By.xpath("//input[contains(@id,'Password')]")).sendKeys("admin123");
 				driver.findElement(By.xpath("//input[@name='Submit' and @id='btnLogin']")).click();
 
-				//Click Admin and navigate/hoover to qulifications and languages and then click on languages
+				//Click Admin and navigate/hover to qulifications and languages and then click on languages
 				WebElement admin = driver.findElement(By.xpath("//*[@id=\'menu_admin_viewAdminModule\']/b"));
 				WebElement qualification = driver.findElement(By.id("menu_admin_Qualifications"));
 				WebElement languages = driver.findElement(By.id("menu_admin_viewLanguages"));
 				
+				//Perform action of building a suite
 				Actions action= new Actions(driver);
 				action.moveToElement(admin).perform();
 				action.moveToElement(qualification).perform();
