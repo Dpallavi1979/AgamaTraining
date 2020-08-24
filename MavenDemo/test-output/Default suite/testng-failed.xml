@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Homework.TestNG_HW">
+      <class name="com.TestNG.CrossBrowser">
         <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
           <include name="facebook"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- Homework.TestNG_HW -->
+      </class> <!-- com.TestNG.CrossBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
