@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-07T20:37:50.580Z",
+        "line": 3,
+        "name": "To check the login functionality of Cogmento",
+        "description": "",
+        "id": "test-the-cogmento-application;to-check-the-login-functionality-of-cogmento",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5656878800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser and navigate to the URL",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps_Deals.launch_the_browser_and_navigate_to_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 467996500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Email and password",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps_Deals.enter_Email_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64457900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click the login button",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps_Deals.click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1331944100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Get the page title and screen shot",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps_Deals.get_the_page_title_and_screen_shot()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-07T20:37:58.216Z",
+        "line": 9,
+        "name": "Check Deals Page",
+        "description": "",
+        "id": "test-the-cogmento-application;check-deals-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 144017200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on Deals section icon",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps_Deals.click_on_Deals_section_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8657278000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "should see Deals page contents",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps_Deals.should_see_Deals_page_contents()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1085698000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on Title",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps_Deals.click_on_Title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4160764900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "should see Title and arrow button",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps_Deals.should_see_Title_and_arrow_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "click on title Up/Down arrow",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Title list should change with up/down arrow",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the Cogmento Application",
+    "description": "",
+    "id": "test-the-cogmento-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Test.feature",
+    "tags": []
+  }
+]
