@@ -1,0 +1,14 @@
+browser=chrome
+url=https://opensource-demo.orangehrmlive.com/
+
+#login functionality
+username=Admin
+pass=admin123
+
+
+#Search functionality data
+searchUsername=kevin
+searchRole=All
+searchEmpNamesearch=Kevin Mathews
+Status=Enabled
+

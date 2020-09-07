@@ -41,7 +41,7 @@ public class AdminPage extends Library{
 		admin.click();
 		
 	}
-	//seraching emplyee 
+	//seraching employee 
 	public void searchuser(String uname,String selectedValue,String ename,String selectedValue1) {
 		username.sendKeys(uname);
 		util.dropdown( userrole,selectedValue);

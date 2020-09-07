@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-31T18:16:04.291Z",
+        "line": 3,
+        "name": "To check the login functionality of OrangeHRM",
+        "description": "",
+        "id": "test-orangehrm-application;to-check-the-login-functionality-of-orangehrm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5829820700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the browser and navigate to the URL",
+            "match": {
+              "location": "com.stepDefination.LoginSteps.to_launch_the_browser_and_navigate_to_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 319027600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Username and Password",
+            "match": {
+              "location": "com.stepDefination.LoginSteps.enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1742210800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click login button",
+            "match": {
+              "location": "com.stepDefination.LoginSteps.click_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1705781900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Get the page title and screenshot",
+            "match": {
+              "location": "com.stepDefination.LoginSteps.get_the_page_title_and_screenshot()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test OrangeHRM Application",
+    "description": "",
+    "id": "test-orangehrm-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/TestCase.feature",
+    "tags": []
+  }
+]

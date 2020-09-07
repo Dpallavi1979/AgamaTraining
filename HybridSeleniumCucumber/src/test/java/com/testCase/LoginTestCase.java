@@ -14,22 +14,23 @@ import com.seleniumReusableFunctions.SeleniumUtilities;
 public class LoginTestCase extends Library {
 	@BeforeTest
 	public void stratUp() {
-		launchApplication("chrome","https://opensource-demo.orangehrmlive.com/");
+		browserSetUp();
+		logger.info("Browser Launched and navigate to URL");
 		
 	}
 	@Test
 	public void login() {
 		LoginPage lpage=new LoginPage(driver);
 		lpage.login("Admin", "admin123");
+		logger.info("Login successful");
 		
 	}
 	@AfterClass
 	public void close() throws IOException {
 		SeleniumUtilities sUti = new SeleniumUtilities(driver);
 		sUti.to_take_screenshot("src\\test\\resources\\ScreenShots\\orangeHRMLogin.png");
-		
-		quit();
+		logger.info("Take Screen Shot");
+		tearDown();
 		
 	}
-
 }

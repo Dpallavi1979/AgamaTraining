@@ -28,6 +28,9 @@ public class LoginPage extends Library{
 		username.sendKeys(uname);
 		pwd.sendKeys(pas);
 		
+		
+	}
+	public void submit() {
 		Loginbutton.click();
 		
 	}

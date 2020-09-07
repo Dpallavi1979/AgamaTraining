@@ -1,0 +1,195 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-02T20:05:26.410Z",
+        "line": 3,
+        "name": "To check the login functionality of OrangeHRM",
+        "description": "",
+        "id": "test-orangehrm-application;to-check-the-login-functionality-of-orangehrm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "To Launch the browser and navigate to the URL",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Enter user name and password",
+            "match": {
+              "location": "com.stepDefination.LoginSteps.enter_user_name_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Click login button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Get the page Title and screenshot",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-02T20:05:26.817Z",
+        "line": 17,
+        "name": "To check the login functionality of OrangeHRM with data Driven",
+        "description": "",
+        "id": "test-orangehrm-application;to-check-the-login-functionality-of-orangehrm-with-data-driven;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6129169500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "launch the browser and navigate to the URL",
+            "match": {
+              "location": "com.stepDefination.LoginStepsWithDataDriven.launch_the_browser_and_navigate_to_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 355053700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.stepDefination.LoginStepsWithDataDriven.enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2173766600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click submit button",
+            "match": {
+              "location": "com.stepDefination.LoginStepsWithDataDriven.click_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Get the page title and get screen shot",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-02T20:05:35.513Z",
+        "line": 18,
+        "name": "To check the login functionality of OrangeHRM with data Driven",
+        "description": "",
+        "id": "test-orangehrm-application;to-check-the-login-functionality-of-orangehrm-with-data-driven;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4573718000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "launch the browser and navigate to the URL",
+            "match": {
+              "location": "com.stepDefination.LoginStepsWithDataDriven.launch_the_browser_and_navigate_to_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 340946700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter \"Admin\" and \"admin12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"admin12345\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.stepDefination.LoginStepsWithDataDriven.enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 823590600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click submit button",
+            "match": {
+              "location": "com.stepDefination.LoginStepsWithDataDriven.click_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Get the page title and get screen shot",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test OrangeHRM Application",
+    "description": "",
+    "id": "test-orangehrm-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Testcase.feature",
+    "tags": []
+  }
+]

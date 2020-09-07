@@ -3,7 +3,7 @@
   <groupId>HybridSeleniumCucumber</groupId>
   <artifactId>HybridSeleniumCucumberr</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-   <properties>
+    <properties>
 		<aspectj.version>1.8.10</aspectj.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -134,7 +134,7 @@
 				<version>2.20</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng1.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<argLine>
 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
