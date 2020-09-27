@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.CrossBrowser">
+      <class name="com.TestNG.Flipkart">
         <methods>
-          <include name="facebook"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
+          <include name="selectproduct"/>
+          <include name="search"/>
+          <include name="addproduct"/>
+          <include name="launchapp"/>
         </methods>
-      </class> <!-- com.TestNG.CrossBrowser -->
+      </class> <!-- com.TestNG.Flipkart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
