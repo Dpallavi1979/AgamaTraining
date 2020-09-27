@@ -641,3 +641,44 @@
 2020-09-07 13:37:57,266 [main] INFO com.baseClass.Library - Take Screen Shot
 2020-09-07 13:38:08,104 [main] INFO com.baseClass.Library - Click on Title
 2020-09-07 13:38:12,265 [main] INFO com.baseClass.Library - Title clicked
+2020-09-07 16:15:44,915 [main] INFO com.baseClass.Library - Starting with Browser Set Up
+2020-09-07 16:15:48,195 [main] INFO com.baseClass.Library - Identified the browser as chrome. Launching the browser
+2020-09-07 16:15:50,835 [main] INFO com.baseClass.Library - Launched the Cogmento Application
+2020-09-07 16:15:50,836 [main] INFO com.baseClass.Library - Browser Launched and navigate to URL
+2020-09-07 16:15:51,373 [main] INFO com.baseClass.Library - LoginEmail and password entered successfully
+2020-09-07 16:15:51,448 [main] INFO com.baseClass.Library - Login successfully
+2020-09-07 16:15:52,838 [main] INFO com.baseClass.Library - Take Screen Shot
+2020-09-07 16:16:02,806 [main] INFO com.baseClass.Library - Click on Title
+2020-09-07 16:16:06,943 [main] INFO com.baseClass.Library - Title clicked
+2020-09-14 17:06:17,638 [main] INFO com.baseClass.Library - Starting with Browser Set Up
+2020-09-14 17:06:20,667 [main] INFO com.baseClass.Library - Identified the browser as chrome. Launching the browser
+2020-09-14 17:06:23,410 [main] INFO com.baseClass.Library - Launched the Cogmento Application
+2020-09-14 17:06:23,411 [main] INFO com.baseClass.Library - Browser Launched and navigate to URL
+2020-09-14 17:06:23,933 [main] INFO com.baseClass.Library - LoginEmail and password entered successfully
+2020-09-14 17:06:24,047 [main] INFO com.baseClass.Library - Login successfully
+2020-09-14 17:06:24,738 [main] INFO com.baseClass.Library - Take Screen Shot
+2020-09-14 17:06:27,271 [main] INFO com.baseClass.Library - Click on Title
+2020-09-14 17:06:31,437 [main] INFO com.baseClass.Library - Title clicked
+2020-09-14 17:14:40,452 [main] INFO com.baseClass.Library - Starting with Browser Set Up
+2020-09-14 17:14:43,428 [main] INFO com.baseClass.Library - Identified the browser as chrome. Launching the browser
+2020-09-14 17:14:46,302 [main] INFO com.baseClass.Library - Launched the Cogmento Application
+2020-09-14 17:14:46,303 [main] INFO com.baseClass.Library - Browser Launched and navigate to URL
+2020-09-14 17:14:46,804 [main] INFO com.baseClass.Library - LoginEmail and password entered successfully
+2020-09-14 17:14:46,929 [main] INFO com.baseClass.Library - Login successfully
+2020-09-14 17:14:47,388 [main] INFO com.baseClass.Library - Take Screen Shot
+2020-09-14 17:18:04,752 [main] INFO com.baseClass.Library - Starting with Browser Set Up
+2020-09-14 17:18:07,673 [main] INFO com.baseClass.Library - Identified the browser as chrome. Launching the browser
+2020-09-14 17:18:10,322 [main] INFO com.baseClass.Library - Launched the Cogmento Application
+2020-09-14 17:18:10,323 [main] INFO com.baseClass.Library - Browser Launched and navigate to URL
+2020-09-14 17:18:10,749 [main] INFO com.baseClass.Library - LoginEmail and password entered successfully
+2020-09-14 17:18:10,835 [main] INFO com.baseClass.Library - Login successfully
+2020-09-14 17:18:11,510 [main] INFO com.baseClass.Library - Take Screen Shot
+2020-09-14 17:19:56,157 [main] INFO com.baseClass.Library - Starting with Browser Set Up
+2020-09-14 17:19:59,472 [main] INFO com.baseClass.Library - Identified the browser as chrome. Launching the browser
+2020-09-14 17:20:02,412 [main] INFO com.baseClass.Library - Launched the Cogmento Application
+2020-09-14 17:20:02,414 [main] INFO com.baseClass.Library - Browser Launched and navigate to URL
+2020-09-14 17:20:03,003 [main] INFO com.baseClass.Library - LoginEmail and password entered successfully
+2020-09-14 17:20:03,107 [main] INFO com.baseClass.Library - Login successfully
+2020-09-14 17:20:04,529 [main] INFO com.baseClass.Library - Take Screen Shot
+2020-09-14 17:20:07,061 [main] INFO com.baseClass.Library - Click on Title
+2020-09-14 17:20:11,215 [main] INFO com.baseClass.Library - Title clicked

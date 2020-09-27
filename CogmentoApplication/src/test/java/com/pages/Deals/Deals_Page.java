@@ -1,15 +1,16 @@
-package com.pages;
+package com.pages.Deals;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import com.seleniumReusableFunctions.SeleniumUtilities;
 import com.baseClass.Library;
 
-public class LoginPage_Deals extends Library{
+public class Deals_Page extends Library{
 	SeleniumUtilities sUtil;
 	
 	//Getting elements of Login Page
@@ -105,7 +106,7 @@ public class LoginPage_Deals extends Library{
 	
 	
 	//Constructor
-	public LoginPage_Deals(WebDriver driver) {
+	public Deals_Page(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 		sUtil = new SeleniumUtilities(driver); 
@@ -151,6 +152,12 @@ public class LoginPage_Deals extends Library{
 	public void title() throws Exception  {
 		Title.click();
 		Thread.sleep(1000);
+	}
+	
+	public void check_deals() {
+		String expectedtitle= "Deals";
+        String actualtitle = driver.findElement(By.xpath(" //div[@class='ui header item mb5 light-black']")).getText();
+        Assert.assertEquals(expectedtitle,actualtitle);
 		}
 	
 	public void title_arrow_button() throws Exception  {

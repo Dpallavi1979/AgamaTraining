@@ -5,10 +5,14 @@ url=https://opensource-demo.orangehrmlive.com/
 username=Admin
 pass=admin123
 
-
 #Search functionality data
 searchUsername=kevin
 searchRole=All
 searchEmpNamesearch=Kevin Mathews
 Status=Enabled
 
+#DataBase connection
+dburl=jdbc:mysql://localhost:3306/sample?useSSL=false
+dbusername=root
+dbpasswort=wardha1979
+dbquery= select username, password from OrangeHRM;
